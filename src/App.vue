@@ -1,5 +1,5 @@
 <template>
- <div style="color:red">jenkins测试版本v1.0.0</div>
+ <div style="color:red">jenkins测试版本v1.0.0!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
 </template>
 
 <style>
