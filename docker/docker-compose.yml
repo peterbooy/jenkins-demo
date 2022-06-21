@@ -1,0 +1,11 @@
+version: "1.1.0"
+services:
+  myjenkinsdemo: # 服务名称
+    build:
+      context: ./ #当前目录-为寻找Dockerfile打好基础
+      dockerfile: Dockerfile  # 需要执行的dockerfile的文件名
+    image: myjenkinsdemoimages:v1.0.0 #生成的镜像名称
+    container_name: myjenkinsdemo-9527
+    ports:
+      - 9527:80 # 10000是宿主机端口  80是容器内部端口
+
